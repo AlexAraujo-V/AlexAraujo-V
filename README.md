@@ -34,13 +34,15 @@ Soy un apasionado desarrollador de software.
 ![HTML](https://img.shields.io/badge/-HTML-333333?style=flat&logo=html5)
 ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=typeScript)
 ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
 ![Next.js](https://img.shields.io/badge/-Next.js-333333?style=flat&logo=next.js)
 ![Astro](https://img.shields.io/badge/-Astro-333333?style=flat&logo=astro)
 ![WordPress](https://img.shields.io/badge/-WordPress-333333?style=flat&logo=wordpress)
 ![PHP](https://img.shields.io/badge/-PHP-333333?style=flat&logo=php)
 ![SQL](https://img.shields.io/badge/-SQL-333333?style=flat&logo=sql)
-
+![Sass](https://img.shields.io/badge/-Sass-333333?style=flat&logo=sass)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-333333?style=flat&logo=bootstrap)
 
 ## ⚡ Datos divertidos
 
