@@ -51,19 +51,6 @@
 </tr>
 </table>
 
----
-
-## 🌱 Actualmente explorando
-
-<div align="center">
-
-| 🔥 En progreso | 🎯 Próximamente | 🚀 Experimentando |
-|:---:|:---:|:---:|
-| **Nuxt.js** | **React Native** | **Three.js** |
-| **Vue.js** | **GraphQL** | **WebGL** |
-| **NestJS** | **Docker** | **PWAs** |
-
-</div>
 
 ---
 
