@@ -5,7 +5,7 @@
 <img src="https://github.com/alex03av/alex03av/assets/105180364/06b4f0ca-a00c-4f8b-b3a5-a5daeaa4fb32" alt="Banner" width="100%" />
 
 <p>
-  <strong>💻 Desarrollador Frontend independiente</strong><br/>
+  <strong>💻 Desarrollador Full Stack independiente</strong><br/>
   Especializado en construir soluciones digitales efectivas con enfoque en<br/>
   <em>rendimiento, escalabilidad y experiencia de usuario</em>
 </p>
@@ -82,6 +82,7 @@
 
 ### 🗄️ Backend & Database
 <p>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
