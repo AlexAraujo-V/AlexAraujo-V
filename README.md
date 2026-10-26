@@ -5,8 +5,8 @@
 <img src="https://github.com/alex03av/alex03av/assets/105180364/06b4f0ca-a00c-4f8b-b3a5-a5daeaa4fb32" alt="Banner" width="100%" />
 
 <p>
-  <strong>💻 Desarrollador Full Stack independiente</strong><br/>
-  Especializado en construir soluciones digitales efectivas con enfoque en<br/>
+  <strong>💻 Ingeniero de software Full Stack</strong><br/>
+  Web (React · Next.js), backend (Node.js · Laravel) y apps iOS (SwiftUI) con foco en<br/>
   <em>rendimiento, escalabilidad y experiencia de usuario</em>
 </p>
 
@@ -28,15 +28,22 @@
 
 ## 🚀 Sobre mí
 
+Ingeniero de software con cerca de 4 años de experiencia construyendo interfaces y plataformas
+para agencias y productos digitales, en remoto. Empecé en frontend (React, Next.js, WordPress
+a medida), desde 2025 trabajo también en backend (APIs, pagos, automatización, paneles de
+administración) y desde 2026 desarrollo apps iOS nativas con Swift.
+
 <table>
 <tr>
 <td width="50%">
 
 ### 👨‍💻 Lo que hago
-- 🎯 **Freelancer** especializado en proyectos personalizados
-- 💡 Transformo ideas en experiencias digitales modernas
-- 🔧 Soluciones a medida con tecnologías de vanguardia
-- 📈 Enfoque en rendimiento y escalabilidad
+- 🎨 Interfaces con **React / Next.js** y Tailwind
+- 📱 Apps iOS nativas con **Swift y SwiftUI**
+- ⚙️ Backend con **Node.js** y **Laravel (PHP 8)**
+- 💳 Integración de pagos (Stripe, PayPal) y soporte (Zendesk)
+- 🤖 Colas de trabajo y bots de automatización de procesos
+- 🧩 Themes y plugins **WordPress** 100 % a medida
 
 </td>
 <td width="50%">
@@ -51,50 +58,74 @@
 </tr>
 </table>
 
+---
+
+## 💼 Experiencia reciente
+
+| Periodo | Rol | Qué hice |
+|:--|:--|:--|
+| **Oct 2026 – Actualidad** | Ingeniero de software · CodigosDTC | Responsable técnico de la plataforma: panel de administración (Next.js 15), orquestador de IA (Node.js, LangChain) y servicio de generación de imágenes con revisión por IA. |
+| **Mar 2026 – Actualidad** | Desarrollador de apps móviles · CodigosDTC | App iOS nativa (Swift + SwiftUI, arquitectura hexagonal): StoreKit 2, Sign in with Apple, chat con adjuntos, push y publicación en App Store. |
+| **Ene 2026 – Actualidad** | Programador Full Stack · CodigosDTC | PWA de diagnóstico automotriz con miles de usuarios activos (Next.js 15, React 18, TypeScript), backend Laravel/PHP, chat en tiempo real, Stripe y despliegue en Docker. |
+| **Sep 2025 – Ene 2026** | Desarrollador Back-end · Organización privada de tramitación de visados (remoto, España) | Backend Laravel/Node.js de portales multi-país: pagos, panel de administración y cola de procesamiento de solicitudes. Proyectos privados. |
+| **Nov 2024 – Sep 2025** | Frontend Web Developer · CodigosDTC (media jornada) | Next.js, TypeScript y Tailwind, multi-idioma y SEO; theme WordPress a medida con plugins propios. |
+| **Jul 2024 – Abr 2025** | React Developer · Getalink (Andorra, remoto) | UI/UX de plataforma SaaS de linkbuilding con React, Next.js, SASS y Bootstrap bajo arquitectura hexagonal. |
+| **Abr 2023 – Jun 2024** | Frontend Web Developer · Gotta Be Public (España, remoto) | Mantenimiento y desarrollo en Next.js y WordPress para agencia digital; SEO y rendimiento. |
+| **Mar 2023 – Jun 2024** | Desarrollador WordPress · Independiente | Themes desde cero, plugins, shortcodes y widgets a medida. |
+| **Nov 2022 – Jun 2024** | Frontend Web Developer · Independiente | Interfaces con Next.js, React y Tailwind para clientes freelance. |
+
+---
+
+## 🎓 Formación y certificaciones
+
+- 🎓 **TSU en Informática** — Colegio Universitario de Administración y Mercadeo (2021–2024)
+- 📜 **Laravel 12: de cero a experto** — Victor Arana Flores · Udemy, completado el 26/10/2026 · [Ver certificado](https://www.udemy.com/certificate/UC-dffadcce-50ca-40ec-83e9-99dd26ecbd94/)
+- 📜 **Máster en APIs RESTful con Node.js** — Express y MongoDB (2024)
+- 📜 Diseño web adaptable · Algoritmos y estructuras de datos en JavaScript · React y Bootstrap (2021–2022)
 
 ---
 
 ## 🛠️ Arsenal Tecnológico
 
-### 🎨 Frontend Development
+### 🎨 Frontend
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-</p>
-
-### ⚛️ Frameworks & Libraries
-<p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" alt="Astro"/>
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js"/>
-</p>
-
-### 🎨 Styling & Design
-<p>
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
   <img src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SASS"/>
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
 </p>
 
-### 🗄️ Backend & Database
+### 🗄️ Backend & Base de datos
 <p>
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress"/>
 </p>
 
-### 🛠️ Tools & Platforms
+### 🔌 Integraciones
+<p>
+  <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe"/>
+  <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"/>
+  <img src="https://img.shields.io/badge/Zendesk-03363D?style=for-the-badge&logo=zendesk&logoColor=white" alt="Zendesk"/>
+</p>
+
+### 🛠️ Herramientas
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
 </p>
 
 ---
@@ -102,12 +133,8 @@
 ## 📊 Estadísticas de GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=alex03av&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=alex03av&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=alex03av&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AlexAraujo-V&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlexAraujo-V&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages"/>
 </div>
 
 ---
@@ -116,76 +143,19 @@
 
 <div align="center">
 
-### 📬 Formas de contacto
+<a href="mailto:aaraujovalles@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+<a href="https://www.linkedin.com/in/alexander-araujo-03840a258/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="https://wa.link/qpfrsb"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/></a>
+<a href="https://msng.link/o/?Araujosev=tg"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
 
-<table>
-<tr>
-<td align="center" width="25%">
-  <a href="mailto:aaraujovalles@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-    <br/><strong>Email</strong>
-  </a>
-</td>
-<td align="center" width="25%">
-  <a href="https://www.linkedin.com/in/alexander-araujo-03840a258/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-    <br/><strong>LinkedIn</strong>
-  </a>
-</td>
-<td align="center" width="25%">
-  <a href="https://wa.link/qpfrsb">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
-    <br/><strong>WhatsApp</strong>
-  </a>
-</td>
-<td align="center" width="25%">
-  <a href="https://msng.link/o/?Araujosev=tg">
-    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/>
-    <br/><strong>Telegram</strong>
-  </a>
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 🎯 Más sobre mí
-
-<div align="center">
-
-| 💼 Profesional | 🎨 Creativo | 🌱 Personal |
-|:---:|:---:|:---:|
-| 🧩 Problem Solver | 📷 Fotografía | 📚 Ciencia Ficción |
-| ⚡ Performance Focus | 🎨 UI/UX Design | 🧪 Tech Explorer |
-| 🔍 Detail Oriented | 🎭 Storytelling | 🌍 Continuous Learning |
-
-</div>
-
----
-
-<div align="center">
-
-### 🚀 ¿Tienes un proyecto en mente?
-
-<p>
-  <strong>¡Hablemos!</strong> Estoy siempre abierto a nuevas oportunidades y colaboraciones interesantes.
-</p>
+### 🚀 ¿Tienes un proyecto en mente? ¡Hablemos!
 
 <a href="https://alex03av.github.io/Portafolio-Front-End-Developer/">
   <img src="https://img.shields.io/badge/Ver_mi_trabajo-FF6B6B?style=for-the-badge&logoColor=white" alt="Ver Portafolio"/>
 </a>
 
----
-
 <p>
-  <img src="https://komarev.com/ghpvc/?username=alex03av&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
-</p>
-
-<p>
-  ⭐ <strong>Gracias por visitar mi perfil</strong> — 
-  <a href="https://github.com/alex03av">@alex03av</a>
+  <img src="https://komarev.com/ghpvc/?username=AlexAraujo-V&color=blueviolet&style=for-the-badge" alt="Profile Views"/>
 </p>
 
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
