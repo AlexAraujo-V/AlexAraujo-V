@@ -6,7 +6,8 @@
 
 <p>
   <strong>💻 Ingeniero de software Full Stack</strong><br/>
-  Web (React · Next.js), backend (Node.js · Laravel) y apps iOS (SwiftUI) con foco en<br/>
+  Web (React · Next.js), backend (Node.js · Laravel), apps iOS/Android nativas y<br/>
+  <strong>agentes de IA y orquestadores (LangGraph)</strong> con foco en<br/>
   <em>rendimiento, escalabilidad y experiencia de usuario</em>
 </p>
 
@@ -43,7 +44,8 @@ nativo con Swift (iOS) y Kotlin (Android).
 - 📱 Apps móviles: **Swift/SwiftUI** (iOS), **Kotlin/Jetpack Compose** (Android) y **React Native**
 - ⚙️ Backend con **Node.js** y **Laravel (PHP 8)**
 - 💳 Integración de pagos (Stripe, PayPal) y soporte (Zendesk)
-- 🤖 Colas de trabajo y bots de automatización de procesos
+- 🤖 **Agentes de IA multi-agente y orquestadores** (LangChain, LangGraph, OpenAI, Anthropic)
+- 🔁 Colas de trabajo y automatización de procesos
 - 🧩 Themes y plugins **WordPress** 100 % a medida
 
 </td>
@@ -58,6 +60,24 @@ nativo con Swift (iOS) y Kotlin (Android).
 </td>
 </tr>
 </table>
+
+---
+
+## 🤖 IA, Agentes y Orquestación
+
+Parte de mi trabajo reciente es diseñar y operar **sistemas de IA en producción** para la plataforma CodigosDTC:
+
+- 🧠 **Orquestador multi-agente** (Node.js 20, Express 5, **LangChain + LangGraph**): cada turno del chat corre como un grafo que arma el contexto, invoca al modelo y ejecuta herramientas.
+- 🧩 **Especialistas por dominio** (diagnóstico, diagramas, visión e investigación) que corren en *runs* hijos con un plazo propio que nunca supera el del turno padre; si se agota devuelven un resultado parcial en vez de colgar la conversación.
+- ⚡ **Tool calling en paralelo** y **tareas en segundo plano cancelables**: los diagnósticos largos se siguen generando y llegan al chat cuando terminan.
+- 🔎 **Búsqueda semántica con embeddings** (`text-embedding-3-small`) con caché por hash de contenido, para encontrar el diagrama eléctrico correcto de cada vehículo.
+- 👁️ **Visión y lectura de diagramas**: análisis de fotos de fallas y piezas, y lectura de diagramas SVG como datos estructurados (componentes, conectores y pines), sin depender de visión.
+- 🎙️ **Voz en tiempo real**: asistente por voz con GPT-Live sobre **WebRTC**, con una conexión *sideband* donde cada delegación se convierte en un turno normal del orquestador.
+- 🚗 **Memoria por vehículo** y **decodificación y verificación de VIN** (ISO 3779: dígito verificador, año y fábrica) antes de confiar en lo que lee el modelo.
+- 📊 **Telemetría por turno**: pasos, tokens y coste de cada ejecución.
+- 🔀 **Multi-modelo**: OpenAI y Anthropic intercambiables desde el panel de administración.
+- 🖼️ **Servicio de imágenes con IA**: servicio independiente en TypeScript (arquitectura hexagonal con reglas de dependencias verificadas por pruebas) que genera imágenes con Gemini, valida reglas medibles con `sharp` y las revisa con un modelo de visión (≈ US$ 0,0007 por imagen).
+- 🔐 **Seguridad**: adjuntos servidos solo con URLs firmadas que caducan.
 
 ---
 
@@ -88,54 +108,77 @@ nativo con Swift (iOS) y Kotlin (Android).
 
 ## 🛠️ Arsenal Tecnológico
 
-### 🎨 Frontend
+### 🎨 Frontend Development
 <p>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+</p>
+
+### ⚛️ Frameworks & Libraries
+<p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
-  <img src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SASS"/>
-  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+  <img src="https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white" alt="Astro"/>
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue.js"/>
+  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" alt="Redux"/>
+  <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery"/>
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
 </p>
 
-### 📱 Móvil
+### 🎨 Styling & Design
+<p>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>
+  <img src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SASS"/>
+  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
+</p>
+
+### 📱 Mobile
 <p>
   <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift"/>
+  <img src="https://img.shields.io/badge/SwiftUI-0D96F6?style=for-the-badge&logo=swift&logoColor=white" alt="SwiftUI"/>
   <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
   <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose"/>
   <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"/>
   <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo"/>
+  <img src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=white" alt="Firebase"/>
 </p>
 
-### 🗄️ Backend & Base de datos
+### 🗄️ Backend & Database
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
   <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
+  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress"/>
+  <img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.IO"/>
 </p>
 
-### 🔌 Integraciones
+### 🤖 IA, Agentes & Integraciones
 <p>
   <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe"/>
   <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal"/>
   <img src="https://img.shields.io/badge/Zendesk-03363D?style=for-the-badge&logo=zendesk&logoColor=white" alt="Zendesk"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"/>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+  <img src="https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic"/>
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Google Gemini"/>
+  <img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" alt="WebRTC"/>
 </p>
 
-### 🛠️ Herramientas
+### 🛠️ Tools & Platforms
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
+  <img src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white" alt="Xcode"/>
+  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white" alt="Android Studio"/>
 </p>
 
 ---
