@@ -2,7 +2,7 @@
 
 # ¡Hola, soy Alex! 👋
 
-<img src="./banner.webp" alt="Alex Araujo - Full Stack Developer" width="100%" />
+<img src="https://raw.githubusercontent.com/AlexAraujo-V/AlexAraujo-V/main/banner.webp" alt="Alex Araujo - Full Stack Developer" width="100%" />
 
 <p>
   <strong>💻 Ingeniero de software Full Stack</strong><br/>
@@ -44,7 +44,7 @@ nativo con Swift (iOS) y Kotlin (Android).
 - 📱 Apps móviles: **Swift/SwiftUI** (iOS), **Kotlin/Jetpack Compose** (Android) y **React Native**
 - ⚙️ Backend con **Node.js** y **Laravel (PHP 8)**
 - 💳 Integración de pagos (Stripe, PayPal) y soporte (Zendesk)
-- 🤖 **Agentes de IA multi-agente y orquestadores** (LangChain, LangGraph, OpenAI, Anthropic)
+- 🤖 **Agentes de IA y orquestadores** (LangChain, LangGraph, OpenAI, Anthropic)
 - 🔁 Colas de trabajo y automatización de procesos
 - 🧩 Themes y plugins **WordPress** 100 % a medida
 
@@ -63,21 +63,33 @@ nativo con Swift (iOS) y Kotlin (Android).
 
 ---
 
-## 🤖 IA, Agentes y Orquestación
+## ⭐ Especialidades
 
-Parte de mi trabajo reciente es diseñar y operar **sistemas de IA en producción** para la plataforma CodigosDTC:
+| | Lo que hago | Donde lo apliqué |
+|:--|:--|:--|
+| 🎨 **Web y frontend** | Interfaces con **React, Next.js y TypeScript**, arquitectura hexagonal, SEO y Core Web Vitals | CodigosDTC, Getalink, Gotta Be Public |
+| ⚙️ **Backend, APIs y pagos** | **Laravel/PHP y Node.js**: APIs REST, JWT y Google OAuth, **Stripe y PayPal**, Zendesk, paneles de administración | Portales de tramitación de visados, CodigosDTC |
+| 📱 **Apps móviles nativas** | **Swift/SwiftUI** (iOS) y **Kotlin/Jetpack Compose** (Android), pagos in-app, push y modo offline; antes, React Native | CodigosDTC |
+| 🤖 **IA y agentes** | Orquestadores multi-agente con **LangChain y LangGraph**, tool calling, búsqueda semántica con embeddings, visión, voz en tiempo real y telemetría de coste | CodigosDTC |
+| 🔁 **Automatización** | Colas de procesamiento con reclamo atómico, workers en Node.js y reintentos | Portales de tramitación de visados |
+| 🧩 **WordPress a medida** | Themes desde cero, plugins, shortcodes y widgets orientados a SEO y rendimiento | CodigosDTC, GamerusX, InfoMigración, Pegatinas DGT y más |
+| 🐳 **Despliegue** | Docker, reverse proxy y servidores propios | CodigosDTC |
 
-- 🧠 **Orquestador multi-agente** (Node.js 20, Express 5, **LangChain + LangGraph**): cada turno del chat corre como un grafo que arma el contexto, invoca al modelo y ejecuta herramientas.
-- 🧩 **Especialistas por dominio** (diagnóstico, diagramas, visión e investigación) que corren en *runs* hijos con un plazo propio que nunca supera el del turno padre; si se agota devuelven un resultado parcial en vez de colgar la conversación.
-- ⚡ **Tool calling en paralelo** y **tareas en segundo plano cancelables**: los diagnósticos largos se siguen generando y llegan al chat cuando terminan.
-- 🔎 **Búsqueda semántica con embeddings** (`text-embedding-3-small`) con caché por hash de contenido, para encontrar el diagrama eléctrico correcto de cada vehículo.
-- 👁️ **Visión y lectura de diagramas**: análisis de fotos de fallas y piezas, y lectura de diagramas SVG como datos estructurados (componentes, conectores y pines), sin depender de visión.
-- 🎙️ **Voz en tiempo real**: asistente por voz con GPT-Live sobre **WebRTC**, con una conexión *sideband* donde cada delegación se convierte en un turno normal del orquestador.
-- 🚗 **Memoria por vehículo** y **decodificación y verificación de VIN** (ISO 3779: dígito verificador, año y fábrica) antes de confiar en lo que lee el modelo.
-- 📊 **Telemetría por turno**: pasos, tokens y coste de cada ejecución.
-- 🔀 **Multi-modelo**: OpenAI y Anthropic intercambiables desde el panel de administración.
-- 🖼️ **Servicio de imágenes con IA**: servicio independiente en TypeScript (arquitectura hexagonal con reglas de dependencias verificadas por pruebas) que genera imágenes con Gemini, valida reglas medibles con `sharp` y las revisa con un modelo de visión (≈ US$ 0,0007 por imagen).
-- 🔐 **Seguridad**: adjuntos servidos solo con URLs firmadas que caducan.
+---
+
+## 🚀 Proyectos destacados
+
+| Proyecto | Qué construí | Stack |
+|:--|:--|:--|
+| **CodigosDTC** · plataforma de diagnóstico automotriz | PWA con miles de usuarios activos, apps nativas iOS y Android, asistente de chat con IA y panel de administración. | Next.js 15, TypeScript, Node.js, Laravel, Swift, Kotlin, LangGraph |
+| **Portales de tramitación de visados** *(privado)* | Portales web multi-país con pagos, panel de administración y cola de procesamiento automatizado de solicitudes. | Laravel 11, PHP 8.2, Stripe, PayPal, Zendesk, Node.js |
+| **Getalink** · SaaS de linkbuilding | UI/UX de la plataforma con componentes reutilizables e integración de APIs REST. | React, Next.js, SASS, Bootstrap, arquitectura hexagonal |
+| **Gotta Be Public** · agencia de marketing digital | Sitio con múltiples landings, blog y formularios de captación de clientes. | Next.js, WordPress, SEO |
+| **WordPress a medida** | Themes y plugins: consulta vehicular por matrícula (Pegatinas DGT), filtro por rangos (Climbing Program), portal de descargas (GamerusX), theme SEO/AdSense (InfoMigración) y marketplace no-code (Ángulo44). | PHP, JavaScript, WordPress |
+| **Chollitos.net** · ofertas y descuentos | Frontend de la plataforma: filtros por categoría y avisos de nuevas ofertas. | Frontend web |
+| **FixOBD2** · diagnóstico profesional | Interfaz para códigos OBD2, documentación técnica y diagramas de cableado. | Frontend web |
+
+🌐 Más detalle en mi [portafolio](https://alex03av.github.io/Portafolio-Front-End-Developer/).
 
 ---
 
