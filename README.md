@@ -2,7 +2,7 @@
 
 # ¡Hola, soy Alex! 👋
 
-<img src="https://github.com/alex03av/alex03av/assets/105180364/06b4f0ca-a00c-4f8b-b3a5-a5daeaa4fb32" alt="Banner" width="100%" />
+<img src="./banner.webp" alt="Alex Araujo - Full Stack Developer" width="100%" />
 
 <p>
   <strong>💻 Ingeniero de software Full Stack</strong><br/>
