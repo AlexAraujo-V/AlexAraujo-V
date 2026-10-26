@@ -31,7 +31,8 @@
 Ingeniero de software con cerca de 4 años de experiencia construyendo interfaces y plataformas
 para agencias y productos digitales, en remoto. Empecé en frontend (React, Next.js, WordPress
 a medida), desde 2025 trabajo también en backend (APIs, pagos, automatización, paneles de
-administración) y desde 2026 desarrollo apps iOS nativas con Swift.
+administración) y desde 2026 desarrollo apps móviles: probé React Native y hoy trabajo en
+nativo con Swift (iOS) y Kotlin (Android).
 
 <table>
 <tr>
@@ -39,7 +40,7 @@ administración) y desde 2026 desarrollo apps iOS nativas con Swift.
 
 ### 👨‍💻 Lo que hago
 - 🎨 Interfaces con **React / Next.js** y Tailwind
-- 📱 Apps iOS nativas con **Swift y SwiftUI**
+- 📱 Apps móviles: **Swift/SwiftUI** (iOS), **Kotlin/Jetpack Compose** (Android) y **React Native**
 - ⚙️ Backend con **Node.js** y **Laravel (PHP 8)**
 - 💳 Integración de pagos (Stripe, PayPal) y soporte (Zendesk)
 - 🤖 Colas de trabajo y bots de automatización de procesos
@@ -65,7 +66,7 @@ administración) y desde 2026 desarrollo apps iOS nativas con Swift.
 | Periodo | Rol | Qué hice |
 |:--|:--|:--|
 | **Oct 2026 – Actualidad** | Ingeniero de software · CodigosDTC | Responsable técnico de la plataforma: panel de administración (Next.js 15), orquestador de IA (Node.js, LangChain) y servicio de generación de imágenes con revisión por IA. |
-| **Mar 2026 – Actualidad** | Desarrollador de apps móviles · CodigosDTC | App iOS nativa (Swift + SwiftUI, arquitectura hexagonal): StoreKit 2, Sign in with Apple, chat con adjuntos, push y publicación en App Store. |
+| **Mar 2026 – Actualidad** | Desarrollador de apps móviles (iOS y Android) · CodigosDTC | Primera versión en React Native (Expo) rechazada en App Store; migré a nativo con arquitectura hexagonal: iOS en Swift + SwiftUI (StoreKit 2, Sign in with Apple, push, chat) y Android en Kotlin + Jetpack Compose (Hilt, Room, Socket.IO, Stripe, Google Play Billing). |
 | **Ene 2026 – Actualidad** | Programador Full Stack · CodigosDTC | PWA de diagnóstico automotriz con miles de usuarios activos (Next.js 15, React 18, TypeScript), backend Laravel/PHP, chat en tiempo real, Stripe y despliegue en Docker. |
 | **Sep 2025 – Ene 2026** | Desarrollador Back-end · Organización privada de tramitación de visados (remoto, España) | Backend Laravel/Node.js de portales multi-país: pagos, panel de administración y cola de procesamiento de solicitudes. Proyectos privados. |
 | **Nov 2024 – Sep 2025** | Frontend Web Developer · CodigosDTC (media jornada) | Next.js, TypeScript y Tailwind, multi-idioma y SEO; theme WordPress a medida con plugins propios. |
@@ -99,6 +100,15 @@ administración) y desde 2026 desarrollo apps iOS nativas con Swift.
   <img src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="SASS"/>
   <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+</p>
+
+### 📱 Móvil
+<p>
+  <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift"/>
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
+  <img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose"/>
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"/>
+  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo"/>
 </p>
 
 ### 🗄️ Backend & Base de datos
